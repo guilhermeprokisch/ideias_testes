@@ -1,4 +1,4 @@
-# Contents
+[#](#.md) Contents
 
 [Coisa](Coisa.md)
 
