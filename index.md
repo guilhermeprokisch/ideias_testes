@@ -1,6 +1,4 @@
 
-
-
 # Backlinks
 
 - [Zettelkasten](Zettelkasten.md)
