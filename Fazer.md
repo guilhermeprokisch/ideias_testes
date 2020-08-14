@@ -1,5 +1,5 @@
 Teste
 
 
-index
+[index](index.md)
 
