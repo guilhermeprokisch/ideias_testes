@@ -2,6 +2,3 @@
 
 
 
-# Backlinks
-
-- [index](index.md)
