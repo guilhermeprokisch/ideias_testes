@@ -1,2 +1,2 @@
 # Contents
-index
+[index](index)
