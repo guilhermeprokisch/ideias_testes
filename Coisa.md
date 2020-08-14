@@ -2,7 +2,7 @@
 
 
 :::python
-for x in range(1):
+[for](for.md) x in range(1):
         print(1)
 
 ```python
