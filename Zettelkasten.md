@@ -2,6 +2,3 @@ Zettelkasten é um arcabouço para padrões de anotações. Esse projeto tem com
 
 [index](index.md)
 
-# Backlinks
-
-- [index](index.md)
