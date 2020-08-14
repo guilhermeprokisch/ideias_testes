@@ -13,3 +13,6 @@ for value range(42):
 # Backlinks
 
 - [index](index.md)
+
+# Generated Tags
+
