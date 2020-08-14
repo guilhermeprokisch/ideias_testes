@@ -3,6 +3,4 @@ Repositório de ideias
 Ferramentas usadas:
         [vim-zettel](https://github.com/michal-h21/vim-zettel)
 
-Aqui pretendo fazer em repositório para anotações de todas minhas ideias.
-
-
+Aqui pretendo fazer em repositório para anotações de todas minhas ideias, usando o conceito de Zettelkasten 
