@@ -9,7 +9,7 @@ _italic text_
 [[wiki link|description]]
 
 [[Teste]]
-novo
+[[novo]]
 
 
 * bullet list item 1
