@@ -3,5 +3,3 @@
 - [ ] Teste2
 - [ ] Lista
         * Sublista
-        
-        -[X]
