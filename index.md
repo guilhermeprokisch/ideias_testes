@@ -1,1 +1,1 @@
-/Users/guilherme/Projects/ideias/20200814161117.md
+d/Users/guilherme/Projects/ideias/20200814161117.md
