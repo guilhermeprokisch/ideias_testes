@@ -1,6 +1,6 @@
 [index](index)
 - [X] Teste
 - [ ] Teste2
-- [ ] Lista
+- [ ] Lista2
         * Sublista
         * Teste
