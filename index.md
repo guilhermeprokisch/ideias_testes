@@ -3,7 +3,7 @@
 [Coisa](Coisa.md)
 
 
-# Generated Index
+[#](#.md) Generated Index
 
 - [index](index.md)
 - [Teste](Teste.md)
