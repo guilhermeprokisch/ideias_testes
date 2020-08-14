@@ -8,6 +8,8 @@
 
 - [index](index.md)
 
+- [index](index.md)
+
 # Generated Index
 
 - [novo](novo.md)
@@ -19,3 +21,6 @@
 - [README](README.md)
 - [Fazer](Fazer.md)
 - [20200814172555](20200814172555.md)
+
+# Generated Tags
+
