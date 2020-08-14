@@ -1,7 +1,6 @@
 [Teste](Teste.md)
 
-[Fazer](F
-azer.md) 
+[Fazer](Fazer.md) 
 
 # Backlinks
 
