@@ -18,6 +18,6 @@ def greet(s):
     print("Hello, " + s)
 }}}
 
-| a table |  |
-|---------|--|
-|         |  |
+| a table |   |
+|---------|---|
+|         |   |
