@@ -1,2 +1,2 @@
-[#](#.d) Contents
+[#](.d) Contents
 
