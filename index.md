@@ -5,4 +5,3 @@ Ferramentas usadas:
 
 Aqui pretendo fazer em repositório para anotações de todas minhas ideias.
 
-
