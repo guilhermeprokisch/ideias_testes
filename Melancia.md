@@ -1,3 +1,0 @@
-Melancia é vermelha
-
-
