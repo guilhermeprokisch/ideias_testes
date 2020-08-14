@@ -12,6 +12,8 @@
 
 - [index](index.md)
 
+- [index](index.md)
+
 # Generated Index
 
 - [novo](novo.md)
