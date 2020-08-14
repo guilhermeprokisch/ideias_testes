@@ -1,4 +1,4 @@
 Teste
 Teste
 
-Index
+[Index](Index)
