@@ -1,6 +1,6 @@
 [index](index.md)
 
-novo
+[novo](novo.md)
 
 # Backlinks
 
