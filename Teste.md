@@ -4,7 +4,7 @@ Esse é um teste
 
 [index](index.md)
 
--[x] [Teste](Teste.md)
+-[x] Teste
 
 
 
