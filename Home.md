@@ -1,2 +1,2 @@
-[Essa](Essa) é minha home de anotações [Zettel](Zettel)
+[](Essa) é minha home de anotações [Zettel](Zettel)
 
