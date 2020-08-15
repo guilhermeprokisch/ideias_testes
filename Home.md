@@ -5,5 +5,4 @@ Navigate to the webserver Gollum starts at http://localhost:4567 and you’ll be
 
 # Backlinks
 
-
 - [Repositório de Ideias](Repositório de Ideias)
