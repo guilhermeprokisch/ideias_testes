@@ -1,0 +1,10 @@
+name: ideias
+
+on: push
+
+jobs:
+  backlinks:
+    runs-on: ubuntu-latest
+    steps:
+     - name: copy files to .backlink folder
+       uses: guilhermeprokisch/ideias_action@v0.0.1
