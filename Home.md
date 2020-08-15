@@ -1,1 +1,5 @@
 Navigate to the webserver Gollum starts at http://localhost:4567 and you’ll be prompted to create a homepage for your new wiki. This page will be stored as Home.wiki and will serve as an entry-point for your wiki. You’ll probably want to make it an organised table of contents. For now, put some placeholder text there and save the page.
+
+# Backlinks
+
+- [Zettelkasten](Zettelkasten.md)
