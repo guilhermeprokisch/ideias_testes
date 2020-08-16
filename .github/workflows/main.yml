@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: create-backlinks
-       uses: guilhermeprokisch/ideias_action@v0.2.1
+       uses: guilhermeprokisch/ideias_action@v0.2.2
        env:
          GH_PAT: ${{ secrets.GH_PAT }}
          ACTION_MAIL: guilherme.prokisch@gmail.com
