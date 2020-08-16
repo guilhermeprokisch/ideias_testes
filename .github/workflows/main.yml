@@ -6,7 +6,7 @@ jobs:
   backlinks:
     runs-on: ubuntu-latest
     steps:
-     - name: copy files to .backlink folder
+     - name: create-backlinks
        uses: guilhermeprokisch/ideias_action@v0.1.2
        env:
          GH_PAT: ${{ secrets.GH_PAT }}
