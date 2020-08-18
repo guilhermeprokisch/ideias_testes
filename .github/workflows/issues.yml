@@ -11,7 +11,7 @@ jobs:
       with:
         text: ${{ github.event.comment.body }}
         regex: '\[\[(.*)\]\]'
-    - uses: actions/IssueOutputAction@v1.0
+    - uses: christothes/IssueOutputAction@v1.0
       with:
         repotoken: ${{ secrets.GITHUB_TOKEN }}
         searchquery: ${{ steps.regex-match.outputs.group1 }}
