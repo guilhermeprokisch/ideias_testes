@@ -11,14 +11,12 @@ jobs:
       with:
         text: ${{ github.event.comment.body }}
         regex: '\[\[(.*)\]\]'
-    - name: Find Comment
-      uses: guilhermeprokisch/find-comment@v1.0.4
-      id: fc
+    - uses: actions/IssueOutputAction@v1.0
       with:
-        issue-number: 1
-        body-includes: ${{ steps.regex-match.outputs.group1 }}
+        repotoken: ${{ secrets.GITHUB_TOKEN }}
+        searchquery: ${{ steps.regex-match.outputs.group1 }}
+        repoOwnerAndName: 'guilhermeprokisch/ideias'
     - run: echo ${{ steps.regex-match.outputs.group1 }}
-    - run: echo ${{ steps.fc.outputs.issue-id }}
     - name: Add reaction
       uses: peter-evans/create-or-update-comment@v1
       with:
