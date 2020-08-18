@@ -12,7 +12,7 @@ jobs:
         text: ${{ github.event.comment.body }}
         regex: '\[\[(.*)\]\]'
     - name: Find Comment
-      uses: guilhermeprokisch/find-comment@v1.0.1
+      uses: guilhermeprokisch/find-comment@v1.0.2
       id: fc
       with:
         issue-number: 1
