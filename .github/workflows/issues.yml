@@ -17,6 +17,8 @@ jobs:
       with:
         issue-number: 1
         body-includes: ${{ steps.regex-match.outputs.group1 }}
+    - run: echo ${{ steps.regex-match.outputs.group1 }}
+    - run: echo ${{ steps.fc.outputs.comment-id }}
     - name: Add reaction
       uses: peter-evans/create-or-update-comment@v1
       with:
