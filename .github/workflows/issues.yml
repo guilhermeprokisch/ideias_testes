@@ -11,8 +11,14 @@ jobs:
       with:
         text: ${{ github.event.comment.body }}
         regex: '\[\[(.*)\]\]'
+    - name: Find Comment
+      uses: peter-evans/find-comment@v1
+      id: fc
+      with:
+        issue-number: 1
+        body-includes: ${{ steps.regex-match.outputs.group1 }}
     - name: Add reaction
       uses: peter-evans/create-or-update-comment@v1
       with:
         comment-id: ${{ github.event.comment.id }}
-        body: ${{ steps.regex-match.outputs.group1 }}
+        body: ${{ steps.fc.outputs.comment-id }}
