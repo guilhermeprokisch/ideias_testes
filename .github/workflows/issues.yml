@@ -1,14 +1,18 @@
 name: Issues Formater
 
-on:
-  issue_comment:
-    types: [created]
+on: [issue_comment]
+
 jobs:
   commentCreated:
     runs-on: ubuntu-latest
     steps:
-      - name: Add reaction
-        uses: peter-evans/create-or-update-comment@v1
-        with:
-          comment-id: ${{ github.event.comment.id }}
-          reactions: eyes
+    - uses: actions-ecosystem/action-regex-match@v2
+      id: regex-match
+      with:
+        text: ${{ github.event.comment.body }}
+        regex: '\[\[(.*)\]\]'
+    - name: Add reaction
+      uses: peter-evans/create-or-update-comment@v1
+      with:
+        comment-id: ${{ github.event.comment.id }}
+        body: ${{ steps.regex-match.outputs.group1 }}
